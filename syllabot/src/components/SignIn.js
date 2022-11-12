@@ -40,8 +40,9 @@ export default function SignIn() {
     });
     navigate('/dashboard', { replace: true });
   };
-  
+
   return (
+    
     <ThemeProvider theme={theme}>
       <Container component="main" maxWidth="xs">
         <CssBaseline />
@@ -51,6 +52,7 @@ export default function SignIn() {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
+            textDecorationColor: 'white',
           }}
         >
           <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
